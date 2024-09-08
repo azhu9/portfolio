@@ -1,24 +1,10 @@
-body{
+:root {
+  --white: #F8F0E5;
+  --cream: #EADBC8;
+  --lbrown: #DAC0A3;
+  --navy: #0F2C59;
+}
+
+/* body{
     margin:0;
-}
-
-.game{
-    height: 50vh;
-}
-
-.navbar {
-    background-color: #B7CEEC;
-  }
-  
-  .icon-bar {
-    background-color: #224cbd;
-  }
-  
-  img { 
-    background: no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
+} */
