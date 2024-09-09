@@ -121,12 +121,9 @@ a.sidebar-link {
     margin-left: 1.5rem;
 }
 
-.hover:hover{
-    transform: scale(1.02);
-}
-
 a.sidebar-link:hover {
     background-color: #f9f6f630;
+    transform: scale(1.02);
 }
 
 .sidebar-link[data-bs-toggle="collapse"]::after {
