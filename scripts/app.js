@@ -18,4 +18,8 @@ toggler.addEventListener("click", function () {
   document.querySelector("#sidebar").classList.toggle("collapsed");
 });
 
-hiddenElements.forEach((el) => observer.observe(el));
+// hiddenElements.forEach((el) => observer.observe(el));
+
+function clearForm() {
+  document.form.reset();
+}

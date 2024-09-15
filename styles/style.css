@@ -75,8 +75,8 @@ section {
 }
 
 #sidebar {
-    max-width: 15vw;
-    min-width: 15vw;
+    max-width: 250px;
+    min-width: 250px;
     transition: all 0.35s ease-in-out;
     background-color: var(--navy);
     display: flex;
@@ -84,7 +84,7 @@ section {
 }
 
 #sidebar.collapsed {
-    margin-left: -15vw;
+    margin-left: -250px;
 }
 
 .toggler-btn {
@@ -147,6 +147,15 @@ a.sidebar-link:hover {
     transform: scale(1.02);
 }
 
+.nav{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.contact{
+    padding-top: 5%;
+}
+
 .sidebar-link[data-bs-toggle="collapse"]::after {
     border: solid;
     border-width: 0 .075rem .075rem 0;
@@ -163,6 +172,11 @@ a.sidebar-link:hover {
 .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
     transform: rotate(45deg);
     transition: all .2s ease-out;
+}
+
+#pdf {
+    width: 85vw;
+    height: 100vh;
 }
 
 /* Screen size less than 768px */
