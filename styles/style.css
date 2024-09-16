@@ -61,15 +61,6 @@ section {
     margin-right: 10%;
 }
 
-/* .hidden{
-    opacity: 0;
-    transition: all 1s;
-}
-
-.show{
-    opacity: 1;
-    transition: all 1s;
-} */
 
 .main {
     min-height: 100vh;
