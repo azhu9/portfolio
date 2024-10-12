@@ -173,6 +173,18 @@ a.sidebar-link:hover {
     position: absolute;
 
 }
+
+.headshot{
+    border-radius: 50%;
+}
+
+.image-wrapper{
+    position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%;
+}
+
+.skill{
+    
+}
 /* SVG animation */
 
 #logo{
